@@ -1,0 +1,22 @@
+#deck-list-heading {
+  padding-top: 2vh;
+  padding-bottom: 2vh;
+}
+
+#card-search-form {
+  padding-right: 3vw;
+}
+
+.scrollable {
+  padding-bottom: 30vh;
+}
+
+#deck-list-form {
+  margin-left: 0%;
+  margin-right: 10%;
+  padding-top: 4vh;
+}
+
+#deck-list-container {
+
+}

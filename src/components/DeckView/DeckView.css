@@ -1,0 +1,23 @@
+#deck-view-header {
+  text-align: center;
+  margin-top: 3vh;
+}
+
+#deck-view {
+  overflow: auto;
+  height: 95%;
+}
+
+#mana-curve-header {
+  margin-left: 5vw;
+}
+
+#cards-header {
+  margin-left: 5vw;
+}
+
+.breaker{
+  color : black;
+  border : 1px solid black;
+  margin-bottom : 5px;
+}

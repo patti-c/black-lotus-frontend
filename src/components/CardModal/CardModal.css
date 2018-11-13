@@ -1,0 +1,7 @@
+.cardImage {
+  margin: .5rem;
+}
+
+body > div.ui.page.modals.dimmer.transition.visible.active > div {
+  top: 25%;
+}

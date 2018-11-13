@@ -1,0 +1,39 @@
+#header-logo {
+  width: 100%;
+  height: 10
+}
+
+#top-menu .menu-button {
+  margin-top: 24px;
+  margin-bottom: 14px;
+}
+
+#top-menu .white-text {
+  color: white;
+  font-size: 2rem;
+}
+
+#top-menu .logo-text {
+  font-weight: bold;
+  font-size: 3rem;
+}
+
+#top-menu {
+  background-color: black;
+  padding-left: 21.5vw;
+}
+
+#header-logo-div {
+  padding: 5px;
+  background-color: black;
+}
+
+#dropdown-menu > a {
+  background-color: black;
+  color: white;
+}
+
+#dropdown-link-1 {
+  background-color: black;
+  color: white;
+}

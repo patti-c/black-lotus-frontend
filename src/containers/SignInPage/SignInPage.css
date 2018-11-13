@@ -1,0 +1,18 @@
+#signin-logo {
+  text-align: center;
+  margin-top: 3vh;
+  margin-left: 5%
+}
+
+#createuser-logo {
+  text-align: center;
+  margin-left: 10%
+}
+
+#black-lotus-large {
+  height: 93vh;
+}
+
+.signin-container {
+  overflow: hidden;
+}

@@ -1,0 +1,3 @@
+- on homepage make cards bigger when hovering, show detail view on click
+- deckbuilder (reuse cardlist, smallcardlist)
+- add icons for decks

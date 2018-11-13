@@ -1,0 +1,13 @@
+#image404 {
+  display: block;
+  margin: auto;
+}
+
+#not-found-header {
+  text-align: center;
+  font-size: 4em;
+  display: block;
+  margin: auto;
+  padding-top: 2vh;
+  font-family: Copperplate, "Copperplate Gothic Light", fantasy;
+}

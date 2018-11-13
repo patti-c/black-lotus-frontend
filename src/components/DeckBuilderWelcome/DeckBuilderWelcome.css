@@ -1,0 +1,14 @@
+#deck-builder-welcome  {
+  margin-top: 2vh;
+  text-align: center
+}
+
+#deck-builder-welcome h2 {
+  margin-top: 0px;
+}
+
+.breaker{
+  color : black;
+  border : 1px solid black;
+  margin-bottom : 5px;
+}

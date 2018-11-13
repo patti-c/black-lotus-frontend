@@ -2,6 +2,30 @@
   text-align: center;
 }
 
+.page-container {
+  display: block;
+  margin-top: 157px;
+  margin-bottom: 0;
+  height: 83vh;
+  background: grey;
+  overflow: hidden;
+  background-image: url('./assets/ability-icons3.png');
+}
+
+#background .content {
+  margin-left: 20vw;
+  margin-right: 20vw;
+}
+
+.background {
+  height: 100vh;
+  width: 100vw;
+  background-color: #383838;
+  /* filter: brightness(50%); */
+  background-image: url('./assets/cards-background.JPG');
+  overflow: hidden;
+}
+
 .App-logo {
   animation: App-logo-spin infinite 20s linear;
   height: 40vmin;
@@ -20,6 +44,10 @@
 
 .App-link {
   color: #61dafb;
+}
+
+body {
+  overflow: hidden;
 }
 
 @keyframes App-logo-spin {

@@ -1,0 +1,24 @@
+#imageNotLoggedIn {
+  display: block;
+  margin: auto;
+}
+
+#not-logged-in-header h2 {
+  text-align: center;
+  font-size: 3em;
+  display: block;
+  margin: auto;
+  font-family: Copperplate, "Copperplate Gothic Light", fantasy;
+}
+
+#first-line {
+  padding-top: 2vh
+}
+
+#rejection {
+  align-content: center;
+  width: 75%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}

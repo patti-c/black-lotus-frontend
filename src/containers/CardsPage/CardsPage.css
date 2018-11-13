@@ -1,0 +1,9 @@
+.scrollable {
+  overflow: auto;
+  height: 93vh;
+  padding-bottom: 15vh;
+}
+
+#card-search-form {
+  padding-right: 5vw;
+}
