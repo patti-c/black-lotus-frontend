@@ -1,6 +1,7 @@
 #deck-view-header {
   text-align: center;
-  margin-top: 3vh;
+  margin-top: 2vh;
+  margin-bottom: 2vh;
 }
 
 #deck-view {
@@ -12,6 +13,10 @@
   margin-left: 5vw;
 }
 
+#success-rate-header {
+  margin-top: 3vh;
+}
+
 #cards-header {
   margin-left: 5vw;
 }
@@ -20,4 +25,49 @@
   color : black;
   border : 1px solid black;
   margin-bottom : 5px;
+}
+
+.vertical-breaker {
+  color: black;
+  border-left: 1px solid black;
+  margin-top: 1vh;
+}
+
+#wins {
+  color: darkgreen;
+  font-size: 3rem;
+}
+
+#losses {
+  color: crimson;
+  font-size: 3rem;
+}
+
+#win-loss-div {
+  display: block;
+  margin: auto;
+  margin-top: 2vh;
+  width: 75%;
+}
+
+.color-image {
+  margin-left: 1vh;
+  margin-top: 1vh;
+  display: inline-block;
+  height: 100px;
+}
+
+#colors-header {
+  margin-top: 3vh
+}
+
+#colors-div {
+  height: 250px;
+  overflow: auto;
+  margin-bottom: 2vh;
+}
+
+#data-container-id {
+  padding-left: 2vw;
+  padding-bottom: 2vh;
 }

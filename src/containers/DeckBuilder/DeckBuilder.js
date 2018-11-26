@@ -60,8 +60,21 @@ class DeckBuilder extends React.Component {
   submitDeck = (e, data) => {
     e.preventDefault()
     data.cards = this.state.currentDeck.map(function(card) {
-      if(card) {
+      if(card && card.colors) {
         return {
+          name: card.name,
+          artist: card.artist,
+          flavor: card.flavor,
+          imageUrl: card.imageUrl,
+          manaCost: card.manaCost,
+          originalType: card.originalType,
+          setName: card.setName,
+          text: card.text,
+          cmc: card.cmc,
+          color: card.colors[0]
+        }
+    } else {
+      return {
         name: card.name,
         artist: card.artist,
         flavor: card.flavor,
@@ -70,9 +83,9 @@ class DeckBuilder extends React.Component {
         originalType: card.originalType,
         setName: card.setName,
         text: card.text,
-        cmc: card.cmc}
+        cmc: card.cmc
       }
-    })
+    }})
     if(this.state.id === null) {
       this.attemptDeckCreation(data)
     } else {

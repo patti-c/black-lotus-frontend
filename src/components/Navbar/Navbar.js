@@ -20,20 +20,13 @@ const Navbar = (props) => {
         </Dropdown.Menu>
       </Dropdown>
 
-
       {props.userInfo ?
         <div className="item white-text menu-button" onClick={props.logout}>Sign Out</div> :
         <Link className="item white-text menu-button" to={`/signin`}>Sign In</Link>
       }
 
-
-
-
-
     </div>
   )
 }
-
-// <Link className="item white-text menu-button" to={`/decks`}>Decks</Link>
 
 export default Navbar
