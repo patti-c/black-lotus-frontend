@@ -21,7 +21,7 @@ class App extends Component {
   componentDidMount(){
     let token = localStorage.getItem('token')
     if(token){
-      fetch(`https://api-black-lotus.herokuapp.com/api/v1/api/v1/decks`, {
+      fetch(`https://api-black-lotus.herokuapp.com/api/v1/decks`, {
         headers: {
           "Authorization" : `Bearer ${token}`
         }
