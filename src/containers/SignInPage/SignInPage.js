@@ -17,7 +17,7 @@ class SignInPage extends Component {
   }
 
   attemptSignIn(url, data) {
-    fetch(`http://localhost:3000/api/v1/${url}`, {
+    fetch(`https://api-black-lotus.herokuapp.com/api/v1/${url}`, {
       method: "POST",
       headers: {
         "Content-Type" : "application/json",

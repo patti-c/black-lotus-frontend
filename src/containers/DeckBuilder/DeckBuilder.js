@@ -95,7 +95,7 @@ class DeckBuilder extends React.Component {
   }
 
   attempdDeckEdit(data) {
-    fetch(`http://localhost:3000/api/v1/editdeck`, {
+    fetch(`https://api-black-lotus.herokuapp.com/api/v1/editdeck`, {
       method: "PATCH",
       headers: {
         "Content-Type" : "application/json",
@@ -116,7 +116,7 @@ class DeckBuilder extends React.Component {
   }
 
   attemptDeckCreation(data) {
-    fetch(`http://localhost:3000/api/v1/newdeck`, {
+    fetch(`https://api-black-lotus.herokuapp.com/api/v1/newdeck`, {
       method: "POST",
       headers: {
         "Content-Type" : "application/json",

@@ -8,7 +8,7 @@ class DecksPage extends Component {
 
   deleteDeck = (deckId) => {
 
-    fetch(`http://localhost:3000/api/v1/decks`, {
+    fetch(`https://api-black-lotus.herokuapp.com/api/v1/decks`, {
       method: "DELETE",
       headers: {
         "Content-Type" : "application/json",
